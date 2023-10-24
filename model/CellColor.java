@@ -36,8 +36,7 @@ public enum CellColor {
       case NONE:
         throw new IllegalArgumentException("Cannot toggle EMPTY");
       default:
-        throw new IllegalArgumentException(String.format(
-                "Cannot toggle color %s, it is an unknown color"));
+        throw new IllegalArgumentException("Cannot toggle color %s, it is an unknown color");
     }
   }
 }
