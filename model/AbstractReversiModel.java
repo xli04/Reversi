@@ -58,6 +58,7 @@ public class AbstractReversiModel /*implements GameModel*/ {
   }
 
   public static void main(String[] args) {
+    System.out.println(1111);
     AbstractReversiModel model = new AbstractReversiModel(11);
     model.print();
   }
