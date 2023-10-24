@@ -6,6 +6,7 @@ import java.util.List;
 
 public class AbstractReversiModel /*implements GameModel*/ {
   private final CellColor[][] board;
+  
   private CellColor turn;
 
   public AbstractReversiModel(int size) {
